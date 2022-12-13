@@ -6,23 +6,12 @@
  */
 
 import * as React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
-import "./layout.css";
+
 import { Helmet } from "react-helmet";
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
   return (
     <>
       <Helmet>
@@ -30,7 +19,7 @@ const Layout = ({ children }) => {
         <title>Gatsby Tailwind SEO</title>
         <meta name="description" content="description" />
       </Helmet>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header />
 
       <main>{children}</main>
     </>
