@@ -1,8 +1,10 @@
 import * as React from "react";
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
-    <p className="text-xl">Header</p>
+    <p data-aos="fade-up" className="text-xl">
+      Header
+    </p>
   </header>
 );
 

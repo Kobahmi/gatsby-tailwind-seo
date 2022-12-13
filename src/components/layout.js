@@ -6,9 +6,7 @@
  */
 
 import * as React from "react";
-
 import Header from "./header";
-
 import { Helmet } from "react-helmet";
 
 const Layout = ({ children }) => {
@@ -17,9 +15,8 @@ const Layout = ({ children }) => {
       <Helmet>
         <html lang="en" />
         <title>Gatsby Tailwind SEO</title>
-        <meta name="description" content="description" />
+        <meta name="description" content="Je croise les doigts pour 100% SEO" />
       </Helmet>
-      <Header />
 
       <main>{children}</main>
     </>
