@@ -6,7 +6,7 @@
  */
 
 import * as React from "react";
-import Header from "./header";
+
 import { Helmet } from "react-helmet";
 
 const Layout = ({ children }) => {

@@ -4,7 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import Header from "../components/header";
+
+import Hero from "../components/Hero";
 
 const IndexPage = () => {
   useEffect(() => {
@@ -15,7 +16,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      <Header />
+
+      <Hero />
     </Layout>
   );
 };
