@@ -6,11 +6,30 @@ const Hero = () => {
   return (
     <section className="relative h-screen">
       <Header />
+      <div className="absolute z-10 flex flex-col gap-3  text-center top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 text-white">
+        <h1
+          data-aos="fade-up"
+          className="md:text-6xl lg:text-5xl xl:text-6xl font-bold whitespace-nowrap"
+        >
+          Boostez votre SEO
+        </h1>
+        <p
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          className="text-lg font-bold"
+        >
+          "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+          consectetur, adipisci velit..."
+        </p>
+      </div>
       <img
         src={Background}
         alt="background workers"
-        className="object-cover w-full h-full"
+        className="absolute object-cover w-full h-full"
       />
+      <div className="absolute min-h-[640px] h-full w-full bg-slate-900 bg-opacity-50"></div>
     </section>
   );
 };

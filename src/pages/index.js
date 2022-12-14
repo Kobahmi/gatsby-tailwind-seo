@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 
 import Hero from "../components/Hero";
+import Scroll from "../components/Scroll";
 
 const IndexPage = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const IndexPage = () => {
       <Seo title="Home" />
 
       <Hero />
+      <Scroll />
     </Layout>
   );
 };
