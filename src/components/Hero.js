@@ -24,6 +24,17 @@ const Hero = () => {
           consectetur, adipisci velit..."
         </p>
       </div>
+      <div className="z-10 absolute text-4xl font-bold bottom-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-200">
+        <p
+          data-aos="fade-in"
+          data-aos-offset="0"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="400"
+          data-aos-duration="1000"
+        >
+          Explorez
+        </p>
+      </div>
       <img
         src={Background}
         alt="background workers"
