@@ -32,7 +32,7 @@ const Fade = () => {
           data-aos-delay="300"
           data-aos-offset="0"
           src={Image1}
-          className="w-1/2 object-cover"
+          className="w-1/2 h-full object-cover"
           alt="tree loving people"
         />
       </div>
@@ -63,7 +63,7 @@ const Fade = () => {
           data-aos-delay="300"
           data-aos-offset="0"
           src={Image2}
-          className="w-1/2 object-cover"
+          className="w-1/2 h-full object-cover"
           alt="tree loving people"
         />
       </div>
@@ -94,7 +94,7 @@ const Fade = () => {
           data-aos-delay="300"
           data-aos-offset="0"
           src={Image3}
-          className="w-1/2 object-cover"
+          className="w-1/2 h-full object-cover"
           alt="tree loving people"
         />
       </div>

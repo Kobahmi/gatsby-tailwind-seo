@@ -8,6 +8,7 @@ import Seo from "../components/seo";
 import Hero from "../components/Hero";
 import Scroll from "../components/Scroll";
 import Fade from "../components/Fade";
+import Zoom from "../components/Zoom";
 
 const IndexPage = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const IndexPage = () => {
       <Hero />
       <Scroll />
       <Fade />
+      <Zoom />
     </Layout>
   );
 };
