@@ -19,8 +19,10 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
-
+      <Hero />
+      <Scroll />
       <Fade />
+      <Zoom />
     </Layout>
   );
 };

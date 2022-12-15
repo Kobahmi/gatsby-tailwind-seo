@@ -20,14 +20,14 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="max-w-sm text-md lg:text-lg"
+            className="text-center max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
           </span>
         </h1>
         <img
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
           data-aos-easing="ease-in-out-back"
           data-aos-delay="300"
           data-aos-offset="0"
@@ -51,14 +51,14 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="max-w-sm text-md lg:text-lg"
+            className="text-center max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
           </span>
         </h1>
         <img
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
           data-aos-easing="ease-in-out-back"
           data-aos-delay="300"
           data-aos-offset="0"
@@ -82,14 +82,14 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="max-w-sm text-md lg:text-lg"
+            className="text-center max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
           </span>
         </h1>
         <img
-          data-aos="zoom-in-left"
+          data-aos="zoom-in-up"
           data-aos-easing="ease-in-out-back"
           data-aos-delay="300"
           data-aos-offset="0"
