@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute z-10 flex flex-col gap-3  text-center top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 text-white">
         <h1
           data-aos="fade-up"
-          className="md:text-6xl lg:text-5xl xl:text-6xl font-bold whitespace-nowrap"
+          className="text-xl  font-bold whitespace-nowrap md:text-4xl"
         >
           Boostez votre SEO
         </h1>

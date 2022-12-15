@@ -2,9 +2,9 @@ import * as React from "react";
 
 const Header = () => (
   <section className="absolute w-full z-20 text-white">
-    <nav className="flex justify-between p-6">
-      <div className="text-2xl font-bold">autoroot.</div>
-      <ul className="flex gap-4 text-ll font-bold">
+    <nav className="flex flex-col justify-between items-center p-6 sm:flex-row">
+      <div className="text-2xl font-bold">playground.</div>
+      <ul className="flex gap-4 text-ll font-bold pt-6 sm:pt-0">
         <li>
           <a
             href="#"
