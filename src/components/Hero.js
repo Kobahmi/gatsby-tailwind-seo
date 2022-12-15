@@ -5,7 +5,6 @@ import Background from "../images/hommeTravail.webp";
 const Hero = () => {
   return (
     <section className="relative h-screen">
-      <Header />
       <div className="absolute z-10 flex flex-col gap-3  text-center top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 text-white">
         <h1
           data-aos="fade-up"

@@ -8,6 +8,7 @@
 import * as React from "react";
 
 import { Helmet } from "react-helmet";
+import Header from "./Header";
 
 const Layout = ({ children }) => {
   return (
@@ -17,7 +18,7 @@ const Layout = ({ children }) => {
         <title>Gatsby Tailwind SEO</title>
         <meta name="description" content="Je croise les doigts pour 100% SEO" />
       </Helmet>
-
+      <Header />
       <main>{children}</main>
     </>
   );
