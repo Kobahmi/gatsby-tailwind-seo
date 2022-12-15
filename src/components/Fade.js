@@ -27,8 +27,8 @@ const Fade = () => {
           </span>
         </h1>
         <img
-          data-aos="fade-left"
-          data-aos-easing="ease-in-back"
+          data-aos="zoom-in-left"
+          data-aos-easing="ease-in-out-back"
           data-aos-delay="300"
           data-aos-offset="0"
           src={Image1}
@@ -58,8 +58,8 @@ const Fade = () => {
           </span>
         </h1>
         <img
-          data-aos="fade-left"
-          data-aos-easing="ease-in-back"
+          data-aos="zoom-in-left"
+          data-aos-easing="ease-in-out-back"
           data-aos-delay="300"
           data-aos-offset="0"
           src={Image2}
@@ -89,8 +89,8 @@ const Fade = () => {
           </span>
         </h1>
         <img
-          data-aos="fade-left"
-          data-aos-easing="ease-in-back"
+          data-aos="zoom-in-left"
+          data-aos-easing="ease-in-out-back"
           data-aos-delay="300"
           data-aos-offset="0"
           src={Image3}

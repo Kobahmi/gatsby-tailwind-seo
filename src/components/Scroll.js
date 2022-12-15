@@ -3,7 +3,7 @@ import React from "react";
 const Scroll = () => {
   return (
     <section className="flex flex-col items-center  bg-slate-900 p-6">
-      <div className="flex max-w-[1200px] w-full gap-4">
+      <div className="flex max-w-[1250px] w-full gap-4">
         <hr
           data-aos="zoom-in-up"
           data-aos-easing="ease-in-back"
@@ -47,7 +47,7 @@ const Scroll = () => {
           className="rounded-xl bg-yellow-400 h-96 mb-10 w-full"
         />
       </div>
-      <div className="flex max-w-[1200px] w-full gap-4">
+      <div className="flex max-w-[1250px] w-full gap-4">
         <hr
           data-aos="zoom-in-up"
           data-aos-easing="ease-in-back"
@@ -89,7 +89,7 @@ const Scroll = () => {
         />
       </div>
 
-      <div className="flex max-w-[1200px] w-full gap-4">
+      <div className="flex max-w-[1250px] w-full gap-4">
         <hr
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"

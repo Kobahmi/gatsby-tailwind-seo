@@ -8,7 +8,9 @@ const Zoom = () => {
     <section className="bg-slate-900">
       <div className="flex h-screen max-w-[1250px] mx-auto  justify-center items-center gap-6">
         <div
-          data-aos="fade-right"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+          data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
           <button className="text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -22,7 +24,9 @@ const Zoom = () => {
         </div>
 
         <div
-          data-aos="fade-up"
+          data-aos="zoom-in-up"
+          data-aos-delay="200"
+          data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
           <button className="text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -36,7 +40,9 @@ const Zoom = () => {
         </div>
 
         <div
-          data-aos="fade-left"
+          data-aos="zoom-in-up"
+          data-aos-delay="300"
+          data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
           <button className="text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
