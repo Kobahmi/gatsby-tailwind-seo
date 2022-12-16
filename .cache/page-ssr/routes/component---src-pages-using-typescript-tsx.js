@@ -40,6 +40,45 @@ const query = "2907560070";
 
 /***/ }),
 
+/***/ "./src/components/Header.js":
+/*!**********************************!*\
+  !*** ./src/components/Header.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("section", {
+  className: "absolute w-full z-20 text-white"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("nav", {
+  className: "flex flex-col justify-between items-center p-6 sm:flex-row"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
+  to: "/",
+  className: "text-2xl font-bold"
+}, "playground."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
+  className: "flex gap-4 text-ll font-bold pt-6 sm:pt-0"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
+  to: "/anchor",
+  className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+}, "Anchor")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
+  to: "/parallax",
+  className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+}, "Parallax")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
+  to: "/media",
+  className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+}, "Media")))));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
+
+/***/ }),
+
 /***/ "./src/components/layout.js":
 /*!**********************************!*\
   !*** ./src/components/layout.js ***!
@@ -54,12 +93,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/es/Helmet.js");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./src/components/Header.js");
 /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
  *
  * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
  */
+
 
 
 
@@ -71,7 +112,7 @@ const Layout = ({
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Gatsby Tailwind SEO"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
     name: "description",
     content: "Je croise les doigts pour 100% SEO"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, children));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, children));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 

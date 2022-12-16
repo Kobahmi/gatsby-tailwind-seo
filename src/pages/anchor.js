@@ -1,16 +1,15 @@
 import * as React from "react";
-import { Link } from "gatsby";
-
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import Zoom from "../components/Zoom";
+import Stick from "../components/Stick";
+import Stickier from "../components/Stickier";
+import Sticky from "../components/Sticky";
 
 const SecondPage = () => (
   <Layout>
-    <Zoom />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Stick />
+    <Sticky />
+    <Stickier />
   </Layout>
 );
 
