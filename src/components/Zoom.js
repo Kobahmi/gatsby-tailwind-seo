@@ -13,12 +13,9 @@ const Zoom = () => {
           data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
-          <a
-            href="#"
-            className="text-lg font-bold whitespace-nowrap hover:bg-slate-100 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-          >
-            Build & Customize
-          </a>
+          <button className="text-lg font-bold whitespace-nowrap hover:bg-gray-100 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <p>Build & Customize</p>
+          </button>
           <img
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
             src={Image1}
@@ -32,12 +29,9 @@ const Zoom = () => {
           data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
-          <a
-            href="#"
-            className="text-lg font-bold hover:bg-slate-100 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-          >
-            Shop Pre-Owned
-          </a>
+          <button className="text-lg font-bold hover:bg-gray-100 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <p>Shop Pre-Owned</p>
+          </button>
           <img
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
             src={Image2}
@@ -51,12 +45,9 @@ const Zoom = () => {
           data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
-          <a
-            href="#"
-            className="text-lg font-bold hover:bg-slate-100 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-          >
-            100% Online
-          </a>
+          <button className="text-lg font-bold hover:bg-gray-100 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <p>100% Online</p>
+          </button>
           <img
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
             src={Image3}

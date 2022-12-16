@@ -3,14 +3,8 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Hero from "../components/Hero";
 import Scroll from "../components/Scroll";
-import loadable from "@loadable/component";
-
-const Fade = loadable(() => import("../components/Fade"), {
-  fallback: <div>Loading...</div>,
-});
-const Zoom = loadable(() => import("../components/Zoom"), {
-  fallback: <div>Loading...</div>,
-});
+import Fade from "../components/Fade";
+import Zoom from "../components/Zoom";
 
 const IndexPage = () => {
   return (

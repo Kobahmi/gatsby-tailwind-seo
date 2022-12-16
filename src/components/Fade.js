@@ -5,7 +5,7 @@ import Image3 from "../images/illustration-your-users.svg";
 
 const Fade = () => {
   return (
-    <section className="flex flex-col items-center bg-slate-100 p-10">
+    <section className="flex flex-col items-center bg-white p-10">
       <div className="flex flex-col h-screen w-full md:flex-row">
         <h1 className="flex flex-col gap-6 items-center justify-center w-full md:w-1/2">
           <span
@@ -20,7 +20,7 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="text-center max-w-sm text-md lg:text-lg"
+            className="text-center font-bold max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
@@ -51,7 +51,7 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="text-center max-w-sm text-md lg:text-lg"
+            className="text-center font-bold max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
@@ -82,7 +82,7 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="text-center max-w-sm text-md lg:text-lg"
+            className="text-center font-bold max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
