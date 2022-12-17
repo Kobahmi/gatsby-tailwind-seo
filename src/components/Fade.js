@@ -10,7 +10,7 @@ const Fade = () => {
         <h1 className="flex flex-col gap-6 items-center justify-center w-full md:w-1/2">
           <span
             data-aos="fade-up"
-            className="text-center text-lg font-bold md:text-xl lg:text-4xl"
+            className="text-black text-center text-lg font-bold md:text-xl lg:text-4xl"
           >
             {" "}
             10K+ Développeurs déjà convaincus
@@ -20,7 +20,7 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="text-center font-bold max-w-sm text-md lg:text-lg"
+            className="text-black text-center font-bold max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
@@ -41,7 +41,7 @@ const Fade = () => {
         <h1 className="flex flex-col gap-6 items-center justify-center w-full md:w-1/2">
           <span
             data-aos="fade-up"
-            className="text-center text-lg font-bold md:text-xl lg:text-4xl"
+            className="text-black text-center text-lg font-bold md:text-xl lg:text-4xl"
           >
             {" "}
             Qu'attendez-vous?
@@ -51,7 +51,7 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="text-center font-bold max-w-sm text-md lg:text-lg"
+            className="text-black text-center font-bold max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
@@ -72,7 +72,7 @@ const Fade = () => {
         <h1 className="flex flex-col gap-6 items-center justify-center w-full md:w-1/2">
           <span
             data-aos="fade-up"
-            className="text-center text-lg font-bold md:text-xl lg:text-4xl"
+            className="text-black text-center text-lg font-bold md:text-xl lg:text-4xl"
           >
             {" "}
             Rentrons en contact!
@@ -82,7 +82,7 @@ const Fade = () => {
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"
-            className="text-center font-bold max-w-sm text-md lg:text-lg"
+            className="text-black text-center font-bold max-w-sm text-md lg:text-lg"
           >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perferendis, et?
