@@ -1283,14 +1283,14 @@ const Stick = () => {
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "100",
     "data-aos-offset": "0",
-    className: "text-4xl font-extrabold sm:text-6xl"
+    className: "text-xl font-extrabold sm:text-6xl"
   }, "Anchor effect"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     "data-aos": "fade-zoom-in",
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "200",
     "data-aos-offset": "0",
     "data-aos-duration": "1000",
-    className: "text-2xl font-bold sm:text-3xl"
+    className: "text-lg font-bold sm:text-3xl"
   }, "Scroll down!"));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Stick);

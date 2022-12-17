@@ -775,9 +775,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./src/components/Header.js");
-/* harmony import */ var _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/hommeTravail.webp */ "./src/images/hommeTravail.webp");
-
+/* harmony import */ var _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/hommeTravail.webp */ "./src/images/hommeTravail.webp");
 
 
 const Hero = () => {
@@ -803,7 +801,7 @@ const Hero = () => {
     "data-aos-delay": "400",
     "data-aos-duration": "1000"
   }, "Explorez")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
+    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_1__["default"],
     alt: "background workers",
     className: "absolute object-cover w-full h-full"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -1032,14 +1030,14 @@ const Stick = () => {
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "100",
     "data-aos-offset": "0",
-    className: "text-4xl font-extrabold sm:text-6xl"
+    className: "text-xl font-extrabold sm:text-6xl"
   }, "Anchor effect"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     "data-aos": "fade-zoom-in",
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "200",
     "data-aos-offset": "0",
     "data-aos-duration": "1000",
-    className: "text-2xl font-bold sm:text-3xl"
+    className: "text-lg font-bold sm:text-3xl"
   }, "Scroll down!"));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Stick);
@@ -1069,7 +1067,7 @@ const Stickier = () => {
     "data-aos-delay": "100",
     "data-aos-offset": "0",
     "data-aos-duration": "1000",
-    className: "max-w-sm text-white mb-20 font-bold text-center"
+    className: "max-w-sm text-white mb-20 font-bold text-center text-sm sm:text-xl"
   }, "Accusamus totam harum fugit est ipsam quia?"));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Stickier);
@@ -1094,10 +1092,10 @@ const Sticky = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "bg-slate-900 py-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    "data-aos": "fade-right",
+    "data-aos": "fade-up",
     "data-aos-anchor": ".trigger-left",
     "data-aos-anchor-placement": "top-center",
-    className: "fixed flex flex-col gap-2 justify-center items-center text-center z-20 top-1/2 w-96 h-96 bg-white  p-10"
+    className: "fixed flex flex-col gap-2 justify-center items-center text-center z-20 top-1/2 w-56 h-56 bg-white p-10 sm:w-96 sm:h-96"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "text-2xl font-bold"
   }, "Anchor!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
@@ -1110,7 +1108,7 @@ const Sticky = () => {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-center max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "flip-left",
+    "data-aos": "fade-up",
     className: "rounded-xl bg-sky-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-end max-w-[1000px] mx-auto"
@@ -1125,12 +1123,12 @@ const Sticky = () => {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "flip-up",
+    "data-aos": "fade-up",
     className: "rounded-xl bg-yellow-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "flip-left",
+    "data-aos": "fade-up",
     "data-aos-easing": "ease-out-cubic",
     "data-aos-duration": "2000",
     className: "rounded-xl bg-purple-400 h-96 mb-10 w-full"
@@ -1142,7 +1140,7 @@ const Sticky = () => {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-end max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "flip-down",
+    "data-aos": "fade-up",
     className: "rounded-xl bg-red-400 h-96 mb-10 w-2/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-end max-w-[1000px] mx-auto"

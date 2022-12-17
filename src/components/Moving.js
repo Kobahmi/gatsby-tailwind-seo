@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import Rellax from "rellax";
 import Image from "../images/hommeTravail.webp";
+import Circle from "../images/circle.svg";
 
 const Moving = () => {
   useEffect(() => {
@@ -27,7 +28,18 @@ const Moving = () => {
   }, []);
 
   return (
-    <section className="text-white bg-slate-900">
+    <section className="relative overflow-x-hidden text-white bg-slate-900">
+      <img
+        className="absolute top-[10%] left-[-15%] w-[50rem] h-[50rem]"
+        src={Circle}
+        alt="circle"
+      />
+      <img
+        className="absolute animate-image top-[15%] left-[20%]  w-[80rem] h-[80rem]"
+        src={Circle}
+        alt="circle"
+      />
+
       <div
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
@@ -43,10 +55,12 @@ const Moving = () => {
 
       <div className="flex flex-col justify-around gap-6 h-screen">
         <div className="flex justify-start mx-auto w-full max-w-[1000px]">
-          <p className="animate text-3xl font-bold md:text-6xl">Amazing.</p>
+          <p className="animate z-30 text-3xl font-bold md:text-6xl">
+            Amazing.
+          </p>
         </div>
         <div className="flex justify-center mx-auto w-full max-w-[1000px]">
-          <p className="text-sky-200 text-3xl font-bold md:text-8xl">
+          <p className="z-20 text-sky-200 text-3xl font-bold md:text-8xl">
             Why so much snow in Canada?
           </p>
         </div>

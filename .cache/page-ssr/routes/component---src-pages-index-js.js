@@ -775,9 +775,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./src/components/Header.js");
-/* harmony import */ var _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/hommeTravail.webp */ "./src/images/hommeTravail.webp");
-
+/* harmony import */ var _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/hommeTravail.webp */ "./src/images/hommeTravail.webp");
 
 
 const Hero = () => {
@@ -803,7 +801,7 @@ const Hero = () => {
     "data-aos-delay": "400",
     "data-aos-duration": "1000"
   }, "Explorez")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
+    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_1__["default"],
     alt: "background workers",
     className: "absolute object-cover w-full h-full"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
