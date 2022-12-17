@@ -13,6 +13,7 @@ const Funny = () => {
         Must Watch!
       </h1>
       <iframe
+        preload="none"
         width="560"
         height="315"
         src="https://www.youtube.com/embed/Uo3cL4nrGOk"
