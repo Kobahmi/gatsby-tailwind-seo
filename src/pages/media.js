@@ -1,9 +1,6 @@
 import * as React from "react";
-import { Link } from "gatsby";
-
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import Scroll from "../components/Scroll";
 import Funny from "../components/Funny";
 
 const SecondPage = () => (

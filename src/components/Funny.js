@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
 const Funny = () => {
   return (
@@ -12,16 +13,11 @@ const Funny = () => {
       >
         Must Watch!
       </h1>
-      <iframe
-        preload="none"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Uo3cL4nrGOk"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+
+      <ReactPlayer
+        controls="true"
+        url="https://www.youtube.com/embed/Uo3cL4nrGOk"
+      />
     </section>
   );
 };
