@@ -26,10 +26,10 @@ const Header = () => (
         </li>
         <li>
           <Link
-            to="/media"
+            to="/everything"
             className="rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
           >
-            Media
+            Everything
           </Link>
         </li>
       </ul>
