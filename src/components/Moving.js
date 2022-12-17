@@ -52,7 +52,7 @@ const Moving = () => {
         </div>
 
         <div className="flex justify-end mx-auto w-full max-w-[1000px]">
-          <p className="animate text-red-400 text-3xl font-bold md:text-7xl">
+          <p className="animate text-red-400 text-3xl font-bold md:text-8xl">
             I shovel every day
           </p>
         </div>

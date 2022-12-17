@@ -4,13 +4,11 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Scroll from "../components/Scroll";
+import Funny from "../components/Funny";
 
 const SecondPage = () => (
   <Layout>
-    <Scroll />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 4</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Funny />
   </Layout>
 );
 
