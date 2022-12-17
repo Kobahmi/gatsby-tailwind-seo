@@ -4,10 +4,10 @@ const Sticky = () => {
   return (
     <section className="bg-slate-900 py-10">
       <div
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-anchor=".trigger-left"
         data-aos-anchor-placement="top-center"
-        className="fixed flex flex-col gap-2 justify-center items-center text-center z-20 top-1/2 w-96 h-96 bg-white  p-10"
+        className="fixed flex flex-col gap-2 justify-center items-center text-center z-20 top-1/2 w-56 h-56 bg-white p-10 sm:w-96 sm:h-96"
       >
         <p className="text-2xl font-bold">Anchor!</p>
         <p className="text-lg ">
@@ -25,7 +25,7 @@ const Sticky = () => {
 
       <div className="flex justify-center max-w-[1000px] mx-auto">
         <hr
-          data-aos="flip-left"
+          data-aos="fade-up"
           className="rounded-xl bg-sky-400 h-96 mb-10 w-1/3"
         ></hr>
       </div>
@@ -46,14 +46,14 @@ const Sticky = () => {
 
       <div className="flex justify-start max-w-[1000px] mx-auto">
         <hr
-          data-aos="flip-up"
+          data-aos="fade-up"
           className="rounded-xl bg-yellow-400 h-96 mb-10 w-1/3"
         ></hr>
       </div>
 
       <div className="flex justify-start max-w-[1000px] mx-auto">
         <hr
-          data-aos="flip-left"
+          data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
           className="rounded-xl bg-purple-400 h-96 mb-10 w-full"
@@ -69,7 +69,7 @@ const Sticky = () => {
 
       <div className="flex justify-end max-w-[1000px] mx-auto">
         <hr
-          data-aos="flip-down"
+          data-aos="fade-up"
           className="rounded-xl bg-red-400 h-96 mb-10 w-2/3"
         ></hr>
       </div>

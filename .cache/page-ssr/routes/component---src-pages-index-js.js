@@ -653,20 +653,20 @@ __webpack_require__.r(__webpack_exports__);
 
 const Fade = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "flex flex-col items-center bg-slate-100 p-10"
+    className: "flex flex-col items-center bg-white p-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex flex-col h-screen w-full md:flex-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "flex flex-col gap-6 items-center justify-center w-full md:w-1/2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     "data-aos": "fade-up",
-    className: "text-center text-lg font-bold md:text-xl lg:text-4xl"
+    className: "text-black text-center text-lg font-bold md:text-xl lg:text-4xl"
   }, " ", "10K+ D\xE9veloppeurs d\xE9j\xE0 convaincus"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     "data-aos": "fade-zoom-in",
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "300",
     "data-aos-offset": "0",
-    className: "text-center max-w-sm text-md lg:text-lg"
+    className: "text-black text-center font-bold max-w-sm text-md lg:text-lg"
   }, "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, et?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     "data-aos": "zoom-in-up",
     "data-aos-easing": "ease-in-out-back",
@@ -681,13 +681,13 @@ const Fade = () => {
     className: "flex flex-col gap-6 items-center justify-center w-full md:w-1/2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     "data-aos": "fade-up",
-    className: "text-center text-lg font-bold md:text-xl lg:text-4xl"
+    className: "text-black text-center text-lg font-bold md:text-xl lg:text-4xl"
   }, " ", "Qu'attendez-vous?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     "data-aos": "fade-zoom-in",
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "300",
     "data-aos-offset": "0",
-    className: "text-center max-w-sm text-md lg:text-lg"
+    className: "text-black text-center font-bold max-w-sm text-md lg:text-lg"
   }, "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, et?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     "data-aos": "zoom-in-up",
     "data-aos-easing": "ease-in-out-back",
@@ -702,13 +702,13 @@ const Fade = () => {
     className: "flex flex-col gap-6 items-center justify-center w-full md:w-1/2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     "data-aos": "fade-up",
-    className: "text-center text-lg font-bold md:text-xl lg:text-4xl"
+    className: "text-black text-center text-lg font-bold md:text-xl lg:text-4xl"
   }, " ", "Rentrons en contact!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     "data-aos": "fade-zoom-in",
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "300",
     "data-aos-offset": "0",
-    className: "text-center max-w-sm text-md lg:text-lg"
+    className: "text-black text-center font-bold max-w-sm text-md lg:text-lg"
   }, "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, et?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     "data-aos": "zoom-in-up",
     "data-aos-easing": "ease-in-out-back",
@@ -755,9 +755,9 @@ const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createEleme
   to: "/parallax",
   className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
 }, "Parallax")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
-  to: "/media",
+  to: "/everything",
   className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
-}, "Media")))));
+}, "Everything")))));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
 /***/ }),
@@ -937,17 +937,15 @@ __webpack_require__.r(__webpack_exports__);
 
 const Zoom = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "bg-slate-900"
+    className: "bg-slate-900 "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex h-screen max-w-[1250px] mx-auto  justify-center items-center gap-6"
+    className: "flex flex-col h-screen max-w-[1250px] mx-auto justify-center items-center gap-6 py-10 md:py-0 md:flex-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     "data-aos": "zoom-in-up",
     "data-aos-delay": "100",
     "data-aos-offset": "0",
     className: "relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    className: "text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-  }, "Build & Customize"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: " w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out",
     src: _images_illustration_flowing_conversation_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
     alt: "working"
@@ -956,9 +954,7 @@ const Zoom = () => {
     "data-aos-delay": "200",
     "data-aos-offset": "0",
     className: "relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    className: "text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-  }, "Shop Pre-Owned"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: " w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out",
     src: _images_illustration_grow_together_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
     alt: "people"
@@ -967,9 +963,7 @@ const Zoom = () => {
     "data-aos-delay": "300",
     "data-aos-offset": "0",
     className: "relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    className: "text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-  }, "100% Online"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: " w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out",
     src: _images_illustration_your_users_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "computer"
@@ -992,8 +986,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/es/Helmet.js");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./src/components/Header.js");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aos */ "./node_modules/aos/dist/aos.esm.js");
+/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos/dist/aos.css */ "./node_modules/aos/dist/aos.css");
+/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/es/Helmet.js");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Header */ "./src/components/Header.js");
 /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
@@ -1004,15 +1001,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
 const Layout = ({
   children
 }) => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("html", {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    aos__WEBPACK_IMPORTED_MODULE_1__["default"].init();
+    aos__WEBPACK_IMPORTED_MODULE_1__["default"].refresh();
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_3__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("html", {
     lang: "en"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Gatsby Tailwind SEO"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
     name: "description",
     content: "Je croise les doigts pour 100% SEO"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, children));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Header__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, children));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 
@@ -1095,18 +1099,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aos */ "./node_modules/aos/dist/aos.esm.js");
-/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aos/dist/aos.css */ "./node_modules/aos/dist/aos.css");
-/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
-/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.js");
-/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
-/* harmony import */ var _components_Fade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Fade */ "./src/components/Fade.js");
-/* harmony import */ var _components_Zoom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Zoom */ "./src/components/Zoom.js");
-
-
-
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Hero */ "./src/components/Hero.js");
+/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
+/* harmony import */ var _components_Fade__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Fade */ "./src/components/Fade.js");
+/* harmony import */ var _components_Zoom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Zoom */ "./src/components/Zoom.js");
 
 
 
@@ -1115,13 +1113,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const IndexPage = () => {
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    aos__WEBPACK_IMPORTED_MODULE_1__["default"].init();
-    aos__WEBPACK_IMPORTED_MODULE_1__["default"].refresh();
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Home"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Scroll__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Fade__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Zoom__WEBPACK_IMPORTED_MODULE_8__["default"], null));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Scroll__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Fade__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Zoom__WEBPACK_IMPORTED_MODULE_6__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 
