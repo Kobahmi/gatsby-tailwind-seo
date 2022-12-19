@@ -14,6 +14,7 @@ const Youtube = () => {
           poster="maxresdefault"
           id="Uo3cL4nrGOk"
           title="Funny"
+          webp="true"
         />
       </div>
     </section>
