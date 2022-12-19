@@ -8,13 +8,17 @@ import Seo from "../components/seo";
 import Stick from "../components/Stick";
 import Stickier from "../components/Stickier";
 import Sticky from "../components/Sticky";
-import Youtube from "../components/Youtube";
+
 import Zoom from "../components/Zoom";
+import loadable from "@loadable/component";
+const Youtube = loadable(() => import("../components/Youtube"), {
+  fallback: <div>Loading...</div>,
+});
 
 const SecondPage = () => (
   <Layout>
     <Moving />
-
+    <Youtube />
     <Hero />
     <Scroll />
     <Fade />

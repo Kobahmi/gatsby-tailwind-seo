@@ -13,7 +13,7 @@ const Youtube = () => {
         <LiteYouTubeEmbed
           poster="maxresdefault"
           id="Uo3cL4nrGOk"
-          title="What’s new in Material Design for the web (Chrome Dev Summit 2019)"
+          title="Funny"
         />
       </div>
     </section>
