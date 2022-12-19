@@ -18,6 +18,12 @@ module.exports = {
     `gatsby-plugin-image`,
     "gatsby-plugin-postcss",
     {
+      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      options: {
+        devMode: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
