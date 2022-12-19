@@ -747,7 +747,7 @@ const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createEleme
   to: "/",
   className: "text-2xl font-bold"
 }, "playground."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
-  className: "flex gap-4 text-ll font-bold pt-6 sm:pt-0"
+  className: "flex gap-4 text-lg font-bold pt-6 sm:pt-0"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
   to: "/anchor",
   className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
@@ -755,6 +755,9 @@ const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createEleme
   to: "/parallax",
   className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
 }, "Parallax")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
+  to: "/animated",
+  className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+}, "Animated")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
   to: "/everything",
   className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
 }, "Everything")))));
@@ -856,7 +859,7 @@ const Moving = () => {
     });
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "relative overflow-x-hidden text-white bg-slate-900"
+    className: "relative overflow-hidden text-white bg-slate-900"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "absolute top-[10%] left-[-15%] w-[100rem] h-[100rem]",
     src: _images_circle_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
@@ -881,19 +884,19 @@ const Moving = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start mx-auto w-full max-w-[1000px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "animate z-30 text-3xl font-bold md:text-6xl"
+    className: "animate z-20 text-3xl font-bold md:text-6xl"
   }, "Amazing.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-center mx-auto w-full max-w-[1000px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "z-20 text-sky-200 text-3xl font-bold md:text-8xl"
+    className: "z-30 text-sky-200 text-3xl font-bold md:text-8xl"
   }, "Why so much snow in Canada?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-end mx-auto w-full max-w-[1000px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "animate text-red-400 text-3xl font-bold md:text-8xl"
+    className: "animate z-30 text-red-400 text-3xl font-bold md:text-8xl"
   }, "I shovel every day")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start mx-auto w-full max-w-[1000px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "text-3xl font-bold md:text-6xl"
+    className: "text-3xl z-20 font-bold md:text-6xl"
   }, "Back pain at 30 years old"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-center items-center h-screen px-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -908,10 +911,54 @@ const Moving = () => {
     "data-aos-delay": "100",
     "data-aos-offset": "0",
     "data-aos-duration": "500",
-    className: "relative flex flex-col h-[50vh] items-center"
+    className: "relative flex flex-col h-[30vh] items-center"
   }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "font-bold text-2xl sm:text-6xl"
-  }, "Look at the image while scrolling")));
+  }, "Look at the images while scrolling")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex flex-col gap-10 pb-16"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex justify-start items-center  px-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: " border-white border-none  w-1/2  h-[30rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "animate-image overflow-clip w-full h-[140%] object-cover ",
+    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
+    alt: "travail"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex justify-end items-center  px-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: " border-white border-none  w-1/2  h-[30rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "animate-image overflow-clip w-full h-[140%] object-cover ",
+    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
+    alt: "travail"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex justify-start items-center px-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: " border-white border-none  w-1/2  h-[30rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "animate-image overflow-clip w-full h-[140%] object-cover ",
+    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
+    alt: "travail"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex justify-end items-center  px-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: " border-white border-none  w-1/2  h-[30rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "animate-image overflow-clip w-full h-[140%] object-cover ",
+    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
+    alt: "travail"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    "data-aos": "fade-up",
+    "data-aos-duration": "1000",
+    className: "flex justify-center items-center  px-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: " border-white border-none  w-full  h-[30rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "animate-image overflow-clip w-full h-[140%] object-cover ",
+    src: _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
+    alt: "travail"
+  })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Moving);
 
@@ -1113,27 +1160,27 @@ const Sticky = () => {
   }, " ", "Lorem ipsum dolor sit amet consectetur adipisicing elit")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "slide-right",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-red-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-center max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "fade-up",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-sky-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-end max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "slide-left",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-green-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-center max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "fade-up",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-orange-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "slide-right",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-yellow-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start max-w-[1000px] mx-auto"

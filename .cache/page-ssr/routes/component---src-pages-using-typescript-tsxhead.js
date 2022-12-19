@@ -693,7 +693,7 @@ const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createEleme
   to: "/",
   className: "text-2xl font-bold"
 }, "playground."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
-  className: "flex gap-4 text-ll font-bold pt-6 sm:pt-0"
+  className: "flex gap-4 text-lg font-bold pt-6 sm:pt-0"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
   to: "/anchor",
   className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
@@ -701,6 +701,9 @@ const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createEleme
   to: "/parallax",
   className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
 }, "Parallax")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
+  to: "/animated",
+  className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+}, "Animated")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_0__.Link, {
   to: "/everything",
   className: "rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
 }, "Everything")))));

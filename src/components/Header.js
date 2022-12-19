@@ -4,14 +4,14 @@ import * as React from "react";
 const Header = () => (
   <section className="absolute w-full z-20 text-white">
     <nav className="flex flex-col justify-between items-center p-6 sm:flex-row">
-      <Link to="/" className="text-2xl font-bold">
+      <Link to="/" className="text-4xl font-bold">
         playground.
       </Link>
-      <ul className="flex gap-4 text-ll font-bold pt-6 sm:pt-0">
+      <ul className="flex gap-2 text-sm font-bold pt-6 sm:pt-0 sm:gap-4 sm:text-lg">
         <li>
           <Link
             to="/anchor"
-            className="rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+            className="rounded px-1 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
           >
             Anchor
           </Link>
@@ -19,15 +19,23 @@ const Header = () => (
         <li>
           <Link
             to="/parallax"
-            className="rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+            className="rounded px-1 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
           >
             Parallax
           </Link>
         </li>
         <li>
           <Link
+            to="/animated"
+            className="rounded px-1 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+          >
+            Animated
+          </Link>
+        </li>
+        <li>
+          <Link
             to="/everything"
-            className="rounded px-2 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
+            className="rounded px-1 py-1 hover:bg-slate-200 hover:bg-opacity-10 duration-100 ease-in"
           >
             Everything
           </Link>

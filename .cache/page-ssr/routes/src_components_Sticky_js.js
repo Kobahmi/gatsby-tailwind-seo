@@ -31,27 +31,27 @@ const Sticky = () => {
   }, " ", "Lorem ipsum dolor sit amet consectetur adipisicing elit")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "slide-right",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-red-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-center max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "fade-up",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-sky-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-end max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "slide-left",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-green-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-center max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "fade-up",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-orange-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start max-w-[1000px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    "data-aos": "slide-right",
+    "data-aos": "flip-up",
     className: "rounded-xl bg-yellow-400 h-96 mb-10 w-1/3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start max-w-[1000px] mx-auto"
