@@ -23,7 +23,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       module: {
         rules: [
           {
-            test: /bad-module/,
+            test: /react-lite-youtube-embed/,
             use: loaders.null(),
           },
         ],
