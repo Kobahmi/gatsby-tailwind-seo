@@ -8,7 +8,6 @@ const Youtube = () => {
       <div className="w-[680px] mx-auto">
         <lite-youtube
           posterquality="maxresdefault"
-          videotitle="This is a video title"
           videoid="Uo3cL4nrGOk"
         ></lite-youtube>
       </div>
