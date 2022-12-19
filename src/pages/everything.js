@@ -10,12 +10,11 @@ import Stickier from "../components/Stickier";
 import Sticky from "../components/Sticky";
 import Youtube from "../components/Youtube";
 import Zoom from "../components/Zoom";
-import "@justinribeiro/lite-youtube";
 
 const SecondPage = () => (
   <Layout>
     <Moving />
-    <Youtube />
+
     <Hero />
     <Scroll />
     <Fade />
