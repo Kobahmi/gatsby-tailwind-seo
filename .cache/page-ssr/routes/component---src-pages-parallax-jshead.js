@@ -686,6 +686,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rellax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rellax */ "./node_modules/rellax/rellax.js");
 /* harmony import */ var rellax__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rellax__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _images_hommeTravail_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/hommeTravail.webp */ "./src/images/hommeTravail.webp");
+/* harmony import */ var _images_circle_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/circle.svg */ "./src/images/circle.svg");
+
 
 
 
@@ -712,8 +714,16 @@ const Moving = () => {
     });
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "text-white bg-slate-900"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "relative overflow-x-hidden text-white bg-slate-900"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "absolute top-[10%] left-[-15%] w-[100rem] h-[100rem]",
+    src: _images_circle_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: "circle"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "absolute animate-image top-[15%] left-[20%]  w-[80rem] h-[80rem]",
+    src: _images_circle_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: "circle"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     "data-aos": "fade-zoom-in",
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "100",
@@ -729,11 +739,11 @@ const Moving = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start mx-auto w-full max-w-[1000px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "animate text-3xl font-bold md:text-6xl"
+    className: "animate z-30 text-3xl font-bold md:text-6xl"
   }, "Amazing.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-center mx-auto w-full max-w-[1000px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "text-sky-200 text-3xl font-bold md:text-8xl"
+    className: "z-20 text-sky-200 text-3xl font-bold md:text-8xl"
   }, "Why so much snow in Canada?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-end mx-auto w-full max-w-[1000px]"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
@@ -3473,6 +3483,21 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   return Rellax;
 }));
 
+
+/***/ }),
+
+/***/ "./src/images/circle.svg":
+/*!*******************************!*\
+  !*** ./src/images/circle.svg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogIDxwYXRoIGZpbGw9IiM1NTUiIGQ9Ik0xMCwwIEMxNS41MjI4NDc1LDAgMjAsNC40NzcxNTI1IDIwLDEwIEMyMCwxNS41MjI4NDc1IDE1LjUyMjg0NzUsMjAgMTAsMjAgQzQuNDc3MTUyNSwyMCAwLDE1LjUyMjg0NzUgMCwxMCBDMCw0LjQ3NzE1MjUgNC40NzcxNTI1LDAgMTAsMCBaIE0xMCwxLjM5NTM0ODg0IEM1LjI0Nzc4MjM5LDEuMzk1MzQ4ODQgMS4zOTUzNDg4NCw1LjI0Nzc4MjM5IDEuMzk1MzQ4ODQsMTAgQzEuMzk1MzQ4ODQsMTQuNzUyMjE3NiA1LjI0Nzc4MjM5LDE4LjYwNDY1MTIgMTAsMTguNjA0NjUxMiBDMTQuNzUyMjE3NiwxOC42MDQ2NTEyIDE4LjYwNDY1MTIsMTQuNzUyMjE3NiAxOC42MDQ2NTEyLDEwIEMxOC42MDQ2NTEyLDUuMjQ3NzgyMzkgMTQuNzUyMjE3NiwxLjM5NTM0ODg0IDEwLDEuMzk1MzQ4ODQgWiIvPg0KPC9zdmc+DQo=");
 
 /***/ }),
 

@@ -18,35 +18,35 @@ const Sticky = () => {
 
       <div className="flex justify-start max-w-[1000px] mx-auto">
         <hr
-          data-aos="slide-right"
+          data-aos="flip-up"
           className="rounded-xl bg-red-400 h-96 mb-10 w-1/3"
         ></hr>
       </div>
 
       <div className="flex justify-center max-w-[1000px] mx-auto">
         <hr
-          data-aos="fade-up"
+          data-aos="flip-up"
           className="rounded-xl bg-sky-400 h-96 mb-10 w-1/3"
         ></hr>
       </div>
 
       <div className="flex justify-end max-w-[1000px] mx-auto">
         <hr
-          data-aos="slide-left"
+          data-aos="flip-up"
           className="rounded-xl bg-green-400 h-96 mb-10 w-1/3"
         ></hr>
       </div>
 
       <div className="flex justify-center max-w-[1000px] mx-auto">
         <hr
-          data-aos="fade-up"
+          data-aos="flip-up"
           className="rounded-xl bg-orange-400 h-96 mb-10 w-1/3"
         ></hr>
       </div>
 
       <div className="flex justify-start max-w-[1000px] mx-auto">
         <hr
-          data-aos="slide-right"
+          data-aos="flip-up"
           className="rounded-xl bg-yellow-400 h-96 mb-10 w-1/3"
         ></hr>
       </div>

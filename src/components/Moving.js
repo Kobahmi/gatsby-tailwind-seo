@@ -55,23 +55,23 @@ const Moving = () => {
 
       <div className="flex flex-col justify-around gap-6 h-screen">
         <div className="flex justify-start mx-auto w-full max-w-[1000px]">
-          <p className="animate z-30 text-3xl font-bold md:text-6xl">
+          <p className="animate z-20 text-3xl font-bold md:text-6xl">
             Amazing.
           </p>
         </div>
         <div className="flex justify-center mx-auto w-full max-w-[1000px]">
-          <p className="z-20 text-sky-200 text-3xl font-bold md:text-8xl">
+          <p className="z-30 text-sky-200 text-3xl font-bold md:text-8xl">
             Why so much snow in Canada?
           </p>
         </div>
 
         <div className="flex justify-end mx-auto w-full max-w-[1000px]">
-          <p className="animate text-red-400 text-3xl font-bold md:text-8xl">
+          <p className="animate z-30 text-red-400 text-3xl font-bold md:text-8xl">
             I shovel every day
           </p>
         </div>
         <div className="flex justify-start mx-auto w-full max-w-[1000px]">
-          <p className="text-3xl font-bold md:text-6xl">
+          <p className="text-3xl z-20 font-bold md:text-6xl">
             Back pain at 30 years old
           </p>
         </div>
@@ -93,12 +93,66 @@ const Moving = () => {
         data-aos-delay="100"
         data-aos-offset="0"
         data-aos-duration="500"
-        className="relative flex flex-col h-[50vh] items-center"
+        className="relative flex flex-col h-[30vh] items-center"
       >
         {" "}
         <p className="font-bold text-2xl sm:text-6xl">
-          Look at the image while scrolling
+          Look at the images while scrolling
         </p>
+      </div>
+
+      <div className="flex flex-col gap-10 pb-16">
+        <div className="flex justify-start items-center  px-10">
+          <div className=" border-white border-none  w-1/2  h-[30rem] overflow-hidden">
+            <img
+              className="animate-image overflow-clip w-full h-[140%] object-cover "
+              src={Image}
+              alt="travail"
+            />
+          </div>
+        </div>
+
+        <div className="flex justify-end items-center  px-10">
+          <div className=" border-white border-none  w-1/2  h-[30rem] overflow-hidden">
+            <img
+              className="animate-image overflow-clip w-full h-[140%] object-cover "
+              src={Image}
+              alt="travail"
+            />
+          </div>
+        </div>
+        <div className="flex justify-start items-center px-10">
+          <div className=" border-white border-none  w-1/2  h-[30rem] overflow-hidden">
+            <img
+              className="animate-image overflow-clip w-full h-[140%] object-cover "
+              src={Image}
+              alt="travail"
+            />
+          </div>
+        </div>
+        <div className="flex justify-end items-center  px-10">
+          <div className=" border-white border-none  w-1/2  h-[30rem] overflow-hidden">
+            <img
+              className="animate-image overflow-clip w-full h-[140%] object-cover "
+              src={Image}
+              alt="travail"
+            />
+          </div>
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="flex justify-center items-center  px-10"
+        >
+          <div className=" border-white border-none  w-full  h-[30rem] overflow-hidden">
+            <img
+              className="animate-image overflow-clip w-full h-[140%] object-cover "
+              src={Image}
+              alt="travail"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
