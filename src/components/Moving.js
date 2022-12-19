@@ -28,7 +28,7 @@ const Moving = () => {
   }, []);
 
   return (
-    <section className="relative overflow-x-hidden text-white bg-slate-900">
+    <section className="relative overflow-hidden text-white bg-slate-900">
       <img
         className="absolute top-[10%] left-[-15%] w-[100rem] h-[100rem]"
         src={Circle}
