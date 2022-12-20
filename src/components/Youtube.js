@@ -1,11 +1,26 @@
 import React from "react";
-
+import { useLottie } from "lottie-react";
+import Sushi from "../images/wizard-sushi.json";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const Youtube = () => {
+  const options = {
+    animationData: Sushi,
+    loop: true,
+  };
+
+  const { View } = useLottie(options);
+
   return (
     <section className="flex flex-col justify-center gap-6 text-white bg-slate-900 h-screen">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        className="w-[400px] mx-auto"
+      >
+        {View}
+      </div>
       <h1
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
