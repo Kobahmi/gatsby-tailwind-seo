@@ -40,7 +40,7 @@ function Seo({ description, title, children, schemaMarkup }) {
       <meta name="twitter:description" content={metaDescription} />
       <Helmet>
         {schemaMarkup && (
-          <script type="application/ld-json">
+          <script type="application/ld+json">
             {JSON.stringify(schemaMarkup)}
           </script>
         )}
