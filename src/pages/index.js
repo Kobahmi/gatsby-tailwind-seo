@@ -35,9 +35,46 @@ const IndexPage = () => {
       "https://gatsbytailwindseomainbranch.gatsbyjs.io/static/illustration-your-users-c07ebfaafd557ff00fa41ee62081bcac.svg",
     ],
   };
+
+  const breadcrumb = {
+    "@context": "http://schema.org/",
+    "@type": "BreadcrumbList",
+    itemlistElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "playground.",
+        item: "https://gatsbytailwindseomainbranch.gatsbyjs.io/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Anchor",
+        item: "https://gatsbytailwindseomainbranch.gatsbyjs.io/anchor/",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Parallax",
+        item: "https://gatsbytailwindseomainbranch.gatsbyjs.io/parallax/",
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: "Animated",
+        item: "https://gatsbytailwindseomainbranch.gatsbyjs.io/animated/",
+      },
+      {
+        "@type": "ListItem",
+        position: 5,
+        name: "Everything",
+        item: "https://gatsbytailwindseomainbranch.gatsbyjs.io/everything/",
+      },
+    ],
+  };
   return (
     <Layout>
-      <Seo title="Home" schemaMarkup={schema} />
+      <Seo title="Home" schemaMarkup={schema} BreadcrumbList={breadcrumb} />
       <Hero />
       <Scroll />
       <Fade />

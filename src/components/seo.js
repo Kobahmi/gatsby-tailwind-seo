@@ -9,7 +9,7 @@ import * as React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 
-function Seo({ description, title, children, schemaMarkup }) {
+function Seo({ description, title, children, schemaMarkup, BreadcrumbList }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -40,6 +40,11 @@ function Seo({ description, title, children, schemaMarkup }) {
       <meta name="twitter:description" content={metaDescription} />
       <Helmet>
         {schemaMarkup && (
+          <script type="application/ld+json">
+            {JSON.stringify(schemaMarkup)}
+          </script>
+        )}
+        {BreadcrumbList && (
           <script type="application/ld+json">
             {JSON.stringify(schemaMarkup)}
           </script>
