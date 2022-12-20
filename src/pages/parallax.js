@@ -26,7 +26,11 @@ const SecondPage = () => {
   };
   return (
     <Layout>
-      <Seo title="Parallax" schemaMarkup={schema} />
+      <Seo
+        title="Parallax"
+        schemaMarkup={schema}
+        canonical="https://gatsbytailwindseomainbranch.gatsbyjs.io/parallax/"
+      />
       <Moving />
     </Layout>
   );

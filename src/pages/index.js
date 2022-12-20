@@ -74,7 +74,12 @@ const IndexPage = () => {
   };
   return (
     <Layout>
-      <Seo title="Home" schemaMarkup={schema} BreadcrumbList={breadcrumb} />
+      <Seo
+        title="Home"
+        schemaMarkup={schema}
+        BreadcrumbList={breadcrumb}
+        canonical="https://gatsbytailwindseomainbranch.gatsbyjs.io/"
+      />
       <Hero />
       <Scroll />
       <Fade />

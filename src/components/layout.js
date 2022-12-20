@@ -27,10 +27,6 @@ const Layout = ({ children }) => {
           name="description"
           content="Je croise les doigts pour 100% SEO!"
         />
-        <link
-          rel="canonical"
-          href="https://gatsbytailwindseomainbranch.gatsbyjs.io/"
-        />
       </Helmet>
       <Header />
       <main>{children}</main>

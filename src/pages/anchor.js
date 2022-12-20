@@ -33,7 +33,11 @@ const SecondPage = () => {
   };
   return (
     <Layout>
-      <Seo title="Anchor" schemaMarkup={schema} />
+      <Seo
+        title="Anchor"
+        schemaMarkup={schema}
+        canonical="https://gatsbytailwindseomainbranch.gatsbyjs.io/anchor/"
+      />
       <Stick />
       <Sticky />
       <Stickier />

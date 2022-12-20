@@ -9,7 +9,14 @@ import * as React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 
-function Seo({ description, title, children, schemaMarkup, BreadcrumbList }) {
+function Seo({
+  description,
+  title,
+  children,
+  schemaMarkup,
+  BreadcrumbList,
+  canonical,
+}) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -49,6 +56,7 @@ function Seo({ description, title, children, schemaMarkup, BreadcrumbList }) {
             {JSON.stringify(BreadcrumbList)}
           </script>
         )}
+        {canonical && <link rel="canonical" href={canonical} />}
       </Helmet>
       {children}
     </>

@@ -30,7 +30,11 @@ const SecondPage = () => {
 
   return (
     <Layout>
-      <Seo title="Animated" schemaMarkup={schema} />;
+      <Seo
+        title="Animated"
+        schemaMarkup={schema}
+        canonical="https://gatsbytailwindseomainbranch.gatsbyjs.io/animated/"
+      />
       <Youtube />
     </Layout>
   );
