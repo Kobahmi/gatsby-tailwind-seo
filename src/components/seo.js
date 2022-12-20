@@ -46,7 +46,7 @@ function Seo({ description, title, children, schemaMarkup, BreadcrumbList }) {
         )}
         {BreadcrumbList && (
           <script type="application/ld+json">
-            {JSON.stringify(schemaMarkup)}
+            {JSON.stringify(BreadcrumbList)}
           </script>
         )}
       </Helmet>
