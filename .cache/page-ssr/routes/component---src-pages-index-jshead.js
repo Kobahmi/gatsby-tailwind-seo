@@ -674,7 +674,8 @@ const Fade = () => {
     "data-aos-offset": "0",
     src: _images_illustration_flowing_conversation_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
     className: "h-full object-cover w-full md:w-1/2",
-    alt: "tree loving people"
+    alt: "tree loving people",
+    loading: "lazy"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex flex-col h-screen w-full md:flex-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
@@ -695,7 +696,8 @@ const Fade = () => {
     "data-aos-offset": "0",
     src: _images_illustration_grow_together_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
     className: "h-full object-cover w-full md:w-1/2",
-    alt: "tree loving people"
+    alt: "tree loving people",
+    loading: "lazy"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex flex-col h-screen w-full md:flex-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
@@ -716,7 +718,8 @@ const Fade = () => {
     "data-aos-offset": "0",
     src: _images_illustration_your_users_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
     className: "h-full object-cover w-full md:w-1/2",
-    alt: "tree loving people"
+    alt: "tree loving people",
+    loading: "lazy"
   })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Fade);
@@ -949,7 +952,8 @@ const Zoom = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: " w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out",
     src: _images_illustration_flowing_conversation_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
-    alt: "working"
+    alt: "working",
+    loading: "lazy"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     "data-aos": "zoom-in-up",
     "data-aos-delay": "200",
@@ -958,7 +962,8 @@ const Zoom = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: " w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out",
     src: _images_illustration_grow_together_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
-    alt: "people"
+    alt: "people",
+    loading: "lazy"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     "data-aos": "zoom-in-up",
     "data-aos-delay": "300",
@@ -967,7 +972,8 @@ const Zoom = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: " w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out",
     src: _images_illustration_your_users_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
-    alt: "computer"
+    alt: "computer",
+    loading: "lazy"
   }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Zoom);

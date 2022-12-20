@@ -34,11 +34,12 @@ const Youtube = () => {
     "data-aos-delay": "200",
     className: "w-[680px] mx-auto"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_lite_youtube_embed__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    poster: "maxresdefault",
+    poster: "hqdefault",
     id: "Uo3cL4nrGOk",
     title: "Funny",
+    adNetwork: true,
     webp: "true",
-    cookie: "true"
+    noCookie: true
   })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Youtube);

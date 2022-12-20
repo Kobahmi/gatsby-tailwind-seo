@@ -23,7 +23,14 @@ const Layout = ({ children }) => {
       <Helmet>
         <html lang="en" />
         <title>Gatsby Tailwind SEO</title>
-        <meta name="description" content="Je croise les doigts pour 100% SEO" />
+        <meta
+          name="description"
+          content="Je croise les doigts pour 100% SEO!"
+        />
+        <link
+          rel="canonical"
+          href="https://gatsbytailwindseomainbranch.gatsbyjs.io/"
+        />
       </Helmet>
       <Header />
       <main>{children}</main>
