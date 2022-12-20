@@ -12,7 +12,7 @@ const Youtube = () => {
         data-aos-easing="ease-in-back"
         className="w-[400px] mx-auto"
       >
-        <Lottie animationData={Sushi} loop={true} />
+        <Lottie animationData={Sushi} />
       </div>
       <h1
         data-aos="fade-zoom-in"
@@ -28,9 +28,10 @@ const Youtube = () => {
         className="w-[680px] mx-auto"
       >
         <LiteYouTubeEmbed
-          poster="maxresdefault"
+          poster="hqdefault"
           id="Uo3cL4nrGOk"
           title="Funny"
+          adNetwork={true}
           webp="true"
           noCookie={true}
         />
