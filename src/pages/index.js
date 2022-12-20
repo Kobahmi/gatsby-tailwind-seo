@@ -23,15 +23,17 @@ const IndexPage = () => {
 
   const schema = {
     "@context": "https://schema.org/",
-    "@type": "WebSite",
+    "@type": "WebPage",
     name: "Gatsby Tailwind SEO",
     description: site.siteMetadata.description,
     url: site.siteMetadata.siteUrl,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "{search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
+    image: [
+      "https://gatsbytailwindseomainbranch.gatsbyjs.io/static/illustration-flowing-conversation-447b9b47aef8c266f047e609cbf11004.svg",
+
+      "https://gatsbytailwindseomainbranch.gatsbyjs.io/static/illustration-grow-together-3c29212c7a9ccd6cccf0412e4b520833.svg",
+
+      "https://gatsbytailwindseomainbranch.gatsbyjs.io/static/illustration-your-users-c07ebfaafd557ff00fa41ee62081bcac.svg",
+    ],
   };
   return (
     <Layout>
