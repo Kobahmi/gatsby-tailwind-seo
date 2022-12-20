@@ -1,10 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import loadable from "@loadable/component";
-const Youtube = loadable(() => import("../components/Youtube"), {
-  fallback: <div>Loading...</div>,
-});
+import Youtube from "../components/Youtube";
 
 const SecondPage = () => (
   <Layout>
