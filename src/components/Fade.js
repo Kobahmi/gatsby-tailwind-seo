@@ -34,6 +34,7 @@ const Fade = () => {
           src={Image1}
           className="h-full object-cover w-full md:w-1/2"
           alt="tree loving people"
+          loading="lazy"
         />
       </div>
 
@@ -65,6 +66,7 @@ const Fade = () => {
           src={Image2}
           className="h-full object-cover w-full md:w-1/2"
           alt="tree loving people"
+          loading="lazy"
         />
       </div>
 
@@ -96,6 +98,7 @@ const Fade = () => {
           src={Image3}
           className="h-full object-cover w-full md:w-1/2"
           alt="tree loving people"
+          loading="lazy"
         />
       </div>
     </section>
