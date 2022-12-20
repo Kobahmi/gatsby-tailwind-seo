@@ -17,6 +17,7 @@ const Zoom = () => {
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
             src={Image1}
             alt="working"
+            loading="lazy"
           />
         </div>
 
@@ -30,6 +31,7 @@ const Zoom = () => {
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
             src={Image2}
             alt="people"
+            loading="lazy"
           />
         </div>
 
@@ -43,6 +45,7 @@ const Zoom = () => {
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
             src={Image3}
             alt="computer"
+            loading="lazy"
           />
         </div>
       </div>
