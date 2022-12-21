@@ -1,5 +1,5 @@
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import Background from "../images/hommeTravail.webp";
 
 const Hero = () => {
   return (
@@ -33,8 +33,8 @@ const Hero = () => {
           Explorez
         </p>
       </div>
-      <img
-        src={Background}
+      <StaticImage
+        src="../images/hommeTravail.webp"
         alt="background workers"
         className="absolute object-cover w-full h-full"
       />

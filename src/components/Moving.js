@@ -1,8 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 import Rellax from "rellax";
-import Image from "../images/hommeTravail.webp";
 import Circle from "../images/circle.svg";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Moving = () => {
   useEffect(() => {
@@ -79,9 +79,9 @@ const Moving = () => {
 
       <div className="flex justify-center items-center h-screen px-10">
         <div className=" border-white border-none  w-full  h-[30rem] overflow-hidden">
-          <img
+          <StaticImage
             className="animate-image overflow-clip w-full h-[140%] object-cover "
-            src={Image}
+            src="../images/hommeTravail.webp"
             alt="travail"
           />
         </div>
@@ -104,9 +104,9 @@ const Moving = () => {
       <div className="flex flex-col gap-10 pb-16">
         <div className="flex justify-start items-center  px-10">
           <div className=" border-white border-none  w-1/2  h-[30rem] overflow-hidden">
-            <img
+            <StaticImage
               className="animate-image overflow-clip w-full h-[140%] object-cover "
-              src={Image}
+              src="../images/hommeTravail.webp"
               alt="travail"
             />
           </div>
@@ -114,27 +114,27 @@ const Moving = () => {
 
         <div className="flex justify-end items-center  px-10">
           <div className=" border-white border-none  w-1/2  h-[30rem] overflow-hidden">
-            <img
+            <StaticImage
               className="animate-image overflow-clip w-full h-[140%] object-cover "
-              src={Image}
+              src="../images/hommeTravail.webp"
               alt="travail"
             />
           </div>
         </div>
         <div className="flex justify-start items-center px-10">
           <div className=" border-white border-none  w-1/2  h-[30rem] overflow-hidden">
-            <img
+            <StaticImage
               className="animate-image overflow-clip w-full h-[140%] object-cover "
-              src={Image}
+              src="../images/hommeTravail.webp"
               alt="travail"
             />
           </div>
         </div>
         <div className="flex justify-end items-center  px-10">
           <div className=" border-white border-none  w-1/2  h-[30rem] overflow-hidden">
-            <img
+            <StaticImage
               className="animate-image overflow-clip w-full h-[140%] object-cover "
-              src={Image}
+              src="../images/hommeTravail.webp"
               alt="travail"
             />
           </div>
@@ -146,9 +146,9 @@ const Moving = () => {
           className="flex justify-center items-center  px-10"
         >
           <div className=" border-white border-none  w-full  h-[30rem] overflow-hidden">
-            <img
+            <StaticImage
               className="animate-image overflow-clip w-full h-[140%] object-cover "
-              src={Image}
+              src="../images/hommeTravail.webp"
               alt="travail"
             />
           </div>
