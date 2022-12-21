@@ -33,12 +33,12 @@ const Hero = () => {
           Explorez
         </p>
       </div>
+      <div className="absolute z-20 min-h-[640px] h-full w-full bg-slate-900 bg-opacity-50"></div>
       <StaticImage
         src="../images/hommeTravail.webp"
         alt="background workers"
         className="absolute z-10 object-cover w-full h-full"
       />
-      <div className="absolute z-20 min-h-[640px] h-full w-full bg-slate-900 bg-opacity-50"></div>
     </section>
   );
 };
