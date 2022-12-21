@@ -22,7 +22,6 @@ const Layout = ({ children }) => {
     <>
       <Helmet>
         <html lang="en" />
-        <title>Gatsby Tailwind SEO</title>
         <meta
           name="description"
           content="Je croise les doigts pour 100% SEO!"
