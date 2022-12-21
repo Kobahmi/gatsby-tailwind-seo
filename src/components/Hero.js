@@ -36,7 +36,7 @@ const Hero = () => {
       <StaticImage
         src="../images/hommeTravail.webp"
         alt="background workers"
-        className="absolute object-cover w-full h-full"
+        className="absolute z-10 object-cover w-full h-full"
       />
       <div className="absolute z-20 min-h-[640px] h-full w-full bg-slate-900 bg-opacity-50"></div>
     </section>
