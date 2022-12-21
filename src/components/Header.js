@@ -2,7 +2,7 @@ import { Link } from "gatsby";
 import * as React from "react";
 
 const Header = () => (
-  <section className="absolute w-full z-20 text-white">
+  <section className="absolute w-full z-30 text-white">
     <nav className="flex flex-col justify-between items-center p-6 sm:flex-row">
       <Link to="/" className="text-4xl font-bold">
         playground.
