@@ -1,7 +1,5 @@
 import React from "react";
-import Image1 from "../images/illustration-flowing-conversation.svg";
-import Image2 from "../images/illustration-grow-together.svg";
-import Image3 from "../images/illustration-your-users.svg";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Zoom = () => {
   return (
@@ -13,11 +11,10 @@ const Zoom = () => {
           data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
-          <img
+          <StaticImage
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
-            src={Image1}
+            src="../images/illustration-flowing-conversation.svg"
             alt="working"
-            loading="lazy"
           />
         </div>
 
@@ -27,11 +24,10 @@ const Zoom = () => {
           data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
-          <img
+          <StaticImage
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
-            src={Image2}
+            src="../images/illustration-grow-together.svg"
             alt="people"
-            loading="lazy"
           />
         </div>
 
@@ -41,11 +37,10 @@ const Zoom = () => {
           data-aos-offset="0"
           className="relative border-4 border-white rounded-xl w-full h-[40rem] overflow-hidden"
         >
-          <img
+          <StaticImage
             className=" w-full h-full object-cover hover:scale-110 transition duration-300 ease-in-out"
-            src={Image3}
+            src="../images/illustration-your-users.svg"
             alt="computer"
-            loading="lazy"
           />
         </div>
       </div>
